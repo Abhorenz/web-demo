@@ -1,153 +1,149 @@
 * {
-    background-color: rgb(217, 230, 238);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(217, 230, 238);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-    margin-top: 5%;
-    align-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  align-content: center;
 }
 
 .navBar {
-    width: auto;
-    display: flex;
-    height: 3%;
-    line-height: 10px;
-    justify-content: space-around;
-    align-content: center;
-    position: sticky;
-    top: 0;
-    border-bottom-style: solid;
-    border-top-style: solid;
+  width: auto;
+  display: flex;
+  height: 3%;
+  line-height: 10px;
+  justify-content: space-around;
+  align-content: center;
+  position: sticky;
+  top: 0;
+  border-bottom-style: solid;
+  border-top-style: solid;
 }
 
 .navBar ul {
-    display: inline-flex;
-    width: 100%;
-    flex-direction: row;
-    margin-left: 20%;
-    margin-right: 20%;
-    gap: 30%;
-    list-style: none;
-    padding: 10px;
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  margin-left: 20%;
+  margin-right: 20%;
+  gap: 30%;
+  list-style: none;
+  padding: 10px;
 }
 
 .navBar li {
-    display: inline;
-    min-width: fit-content;
+  display: inline;
+  min-width: fit-content;
 }
 
 .navBar li a {
-    font-size: larger;
-    font-weight: bold;
-    align-items: center;
-    min-height: 15px;
-    text-decoration: none;
-    color: hsl(269, 100%, 37%);
-    display: inline-flex;
-    padding: 2px;
+  font-size: larger;
+  font-weight: bold;
+  align-items: center;
+  min-height: 15px;
+  text-decoration: none;
+  color: hsl(269, 100%, 37%);
+  display: inline-flex;
+  padding: 2px;
 }
 
 .navBar a:hover {
-    color: white;
-    background-color: hsl(269, 100%, 37%);
+  color: white;
+  background-color: hsl(269, 100%, 37%);
 }
 
 #logo {
-    float: left;
-    height: 205px;
-    width: 205px;
-    padding: 0;
-    margin: 0;
+  float: left;
+  height: 205px;
+  width: 205px;
+  padding: 0;
+  margin: 0;
 }
 
 #header {
-    color: white;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px hsl(269, 100%, 37%);
-    font-size: 75px;
-    font-weight: bold;
-    height: 205px;
-    width: auto;
-    min-width: 445px;
-    align-content: center;
-    text-align: center;
-    overflow: hidden;
-    background-image: url("../img/header_small.png");
-    background-repeat: none;
-    background-size: cover;
+  color: white;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px hsl(269, 100%, 37%);
+  font-size: 75px;
+  font-weight: bold;
+  height: 205px;
+  width: auto;
+  min-width: 445px;
+  align-content: center;
+  text-align: center;
+  overflow: hidden;
+  background-image: url("../img/header_small.png");
+  background-repeat: none;
+  background-size: cover;
 }
 
 footer {
-    height: 100px;
-    width: 80%;
-    margin-right: auto;
-    border-top-style: solid;
-    align-content: center;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
+  height: 100px;
+  width: 80%;
+  margin-right: auto;
+  border-top-style: solid;
+  align-content: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 
 #socials {
-    align-content: center;
-    margin-top: 2px;
-    margin-bottom: 2px;
+  align-content: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 #socials span {
-    margin-left: 5%;
-    margin-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #attributions a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 #attributions a:hover {
-    color: green;
-    background-color:hsl(269, 100%, 37%);
+  color: green;
+  background-color:hsl(269, 100%, 37%);
 }
 
 #image1 img {
-    width: 550px;
-    height: auto;
-    float: right;
+  width: 550px;
+  height: auto;
+  float: right;
 }
 
 .infoBlock {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 #copy h4 {
-    margin: 2px;
+  margin: 2px;
 }
 
 img.team {
-    max-width: 250px;
-    max-height: 350px;
+  max-width: 250px;
+  max-height: 350px;
 }
 
 div.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .gallery div {
-    max-width: 250px;
+  max-width: 250px;
 }
 
 #details {
-    position: absolute;
-    bottom: 100px;
-    right: 10%;
-}
-
-@media (min-width: 600px) { 
-
+  position: absolute;
+  bottom: 100px;
+  right: 10%;
 }
