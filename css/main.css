@@ -147,3 +147,12 @@ div.gallery {
   bottom: 100px;
   right: 10%;
 }
+
+p.filler {
+    font-size: 125%;
+    font-weight: 300;
+}
+
+h1.imagetitle {
+    font-size: 120%;
+}
